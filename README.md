@@ -1,4 +1,4 @@
-# npm-array-unique
+# npm-array-unique [![NPM version](https://img.shields.io/npm/v/npm-array-unique.svg)](https://www.npmjs.com/package/npm-array-unique)
 Receives array as an input and returns the unique array and also an object whith array items and their occurences
 
 ## Installation
