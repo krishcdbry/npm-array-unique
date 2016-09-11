@@ -67,7 +67,7 @@ function itemCount(inputArr, needle, count) {
 	else {
 		count += 1;
 		cloneArr.splice(idx, 1);
-		return getCount(cloneArr, needle, count);
+		return itemCount(cloneArr, needle, count);
 	}
 }
 
@@ -90,7 +90,7 @@ function uniqueCount(inputArr) {
 	var uniqueOccurrences = {};
 
 	cloneArr.map(function(item) {
-		uniqueOccurrences[item] = getCount(cloneArr, item);
+		uniqueOccurrences[item] = itemCount(cloneArr, item);
 	});
 
 	return uniqueOccurrences;
