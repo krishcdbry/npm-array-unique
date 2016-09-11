@@ -1,0 +1,31 @@
+{
+  "name": "npm-array-unique",
+  "version": "1.0.0",
+  "description": "Receives array as an input and returns the unique array and also an object whith array items and their occurences",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishcdbry/npm-array-unique.git"
+  },
+  "keywords": [
+    "array",
+    "unique",
+    "array-unique",
+    "unique-array",
+    "find-arrray-unique",
+    "array-occurrences",
+    "array-item-count",
+    "item-count",
+    "object",
+    "unique-items"
+  ],
+  "author": "KrishCdbry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishcdbry/npm-array-unique/issues"
+  },
+  "homepage": "https://github.com/krishcdbry/npm-array-unique#readme"
+}
