@@ -1,6 +1,6 @@
 {
   "name": "npm-array-unique",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Receives array as an input and returns the unique array and also an object whith array items and their occurences",
   "main": "index.js",
   "scripts": {
